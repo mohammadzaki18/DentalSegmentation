@@ -1,8 +1,9 @@
-streamlit
+streamlit==0.96.0
+torch==1.9.0
+torchvision==0.10.0
+opencv-python==4.5.3
+detectron2==0.6
 tensorflow
 Pillow
 st-pages
-torch
-torchvision
-opencv-python
-detectron2==0.6
+
