@@ -1,9 +1,10 @@
 streamlit
-torch
-torchvision
+
 opencv-python
-detectron2==0.10
+
 tensorflow
 Pillow
 st-pages
-
+torch==1.10.0+cpu
+torchvision==0.11.1+cpu
+detectron2==0.6 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch1.10/index.html
