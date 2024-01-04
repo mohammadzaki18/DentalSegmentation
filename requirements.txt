@@ -2,7 +2,7 @@ streamlit
 torch
 torchvision
 opencv-python
-detectron2==0.6
+detectron2==0.10
 tensorflow
 Pillow
 st-pages
