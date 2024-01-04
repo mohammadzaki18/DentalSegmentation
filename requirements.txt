@@ -5,4 +5,4 @@ st-pages
 torch
 torchvision
 opencv-python
-detectron2==0.6
+detectron2
