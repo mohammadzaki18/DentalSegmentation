@@ -15,7 +15,7 @@ torch_device = torch.device("cpu")
 cfg = get_cfg()
 cfg.merge_from_file(model_zoo.get_config_file("COCO-InstanceSegmentation/mask_rcnn_R_101_C4_3x.yaml"))
 cfg.DATALOADER.NUM_WORKERS = 4
-cfg.MODEL.WEIGHTS = "model_final.pth"  # Replace with your model.pth path
+cfg.MODEL.WEIGHTS = "model_final.pth" 
 cfg.MODEL.ROI_HEADS.NUM_CLASSES = 1
 cfg.MODEL.DEVICE = torch_device.type
 
