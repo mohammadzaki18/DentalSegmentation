@@ -38,7 +38,7 @@ if uploaded_file is not None:
 
     if st.button("Segmentasi"):
         try:
-            with st.spinner("Sedang melakukan segmentasi..."):
+            with st.spinner("Currently doing segmentation..."):
                 outputs = predictor(image_np)
                 instances = outputs["instances"].to("cpu")
                 segmentation_mask = np.zeros_like(image_np)
