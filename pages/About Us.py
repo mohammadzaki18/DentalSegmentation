@@ -2,22 +2,18 @@ import streamlit as st
 from PIL import Image, ImageFilter, ImageEnhance
 import io
 
-st.title('Tentang Kami✨')
-st.write(""" Haiii! Kami adalah tim Uhuyy dari Universitas Yarsi.""")
+st.title('About Us✨')
+st.write(""" Hello! We are the Uhuyy team from Yarsi University..""")
 
-st.write (""" Kami, mahasiswa semester 5 Jurusan Teknik Informatika, tengah fokus dalam peminatan yang sedang tren, yaitu Artificial Intelligence (AI). Pilihan kami pada AI didasari keyakinan bahwa teknologi ini akan membawa perubahan besar, dan kami memiliki niatan kuat untuk turut berkontribusi.
+st.write (""" As fifth-semester students majoring in Computer Science, we are currently focusing on the trending field of Artificial Intelligence (AI). Our decision to delve into AI is driven by the belief that this technology will bring significant changes, and we are strongly committed to contributing to it's advancements.
 """)
 
 st.write("""
-Dalam tim, kami memiliki anggota yang gemar coding, ahli dalam mengatur model, dan tentu saja yang mampu membuat AI menjadi keren. Jika ditanya, "Ada yang bisa ngoding sambil ngopi?" Jawabannya pasti, "Bisa banget!" meskipun kadang sambil menghadapi tantangan, hehe.
+Within our team, we have members who enjoy coding, are adept at managing models, and, of course, can make AI look cool. If asked, "Can anyone code while sipping coffee?" the answer is undoubtedly, "Absolutely!" even though it sometimes comes with its challenges, hehe.
 """)
 
 st.write("""
-Semangat dan kegigihan kami mengemban perjalanan di dunia AI terus membawa kami untuk lebih memahami dan mengembangkan teknologi ini. Kami yakin, dengan kolaborasi dan dedikasi, proyek-proyek inovatif dari tim Uhuyy akan menjadi kontribusi berarti dalam merintis masa depan yang penuh potensi.
-""")
-
-st.write("""
-Terima kasih telah menjadi bagian dari perjalanan kami, dan nantikan keberlanjutan kisah kami dalam proyek-proyek mendatang! 🌟🤖
+Thank you for being part of our journey, and stay tuned for the continuation of our story in upcoming projects! 🌟🤖
 """)
 
 
@@ -51,7 +47,18 @@ with col2:
 with col3:
     st.image(enhance_image(open("img_sources/1.png", "rb").read()), caption="Enggar Galih W", width=200)
 
-st.divider()     
+st.divider() 
+
+st.header("""References""")
+st.write("""
+- https://github.com/mfcsds/ic-corn
+- https://github.com/facebookresearch/detectron2
+- https://pubmed.ncbi.nlm.nih.gov/36368120/
+- https://ieeexplore.ieee.org/document/10113315
+- https://pubmed.ncbi.nlm.nih.gov/34347537/
+""")
+
+st.divider()
 st.write("""
 Copyright © 2023 - Uhuyy, All Rights Reserved.
 """)

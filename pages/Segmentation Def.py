@@ -4,7 +4,7 @@ from PIL import Image
 
 st.title('Dental Segmentation')
 
-st.header('Methodology')
+st.header("Methodology")
 
 st.write("""
  We use a private dataset from IIUM Malaysia as many as 360 MRI scans and have been annotated condyle areas by experts
@@ -24,7 +24,7 @@ Here for our design experiment:
 
 st.image('img_sources\Flowchart.jpeg')
 
-st.header('Evaluation')
+st.header("Evaluation")
 
 st.write("""
  After training we evaluate the model. For model evaluation we use the following Average Precision (AP) and use data test for evaluation. 
