@@ -5,5 +5,4 @@ Pillow
 st-pages
 torch
 torchvision>=0.16.2
-Cython>=0.1
-git+https://github.com/facebookresearch/detectron2.git
+detectron2
