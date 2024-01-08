@@ -4,5 +4,5 @@ tensorflow
 Pillow
 st-pages
 torch
-torchvision>=0.16.2
+torchvision
 detectron2
