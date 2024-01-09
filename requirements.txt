@@ -2,6 +2,7 @@ streamlit==1.15.0
 tensorflow
 Pillow
 st-pages
+pyyaml
 torch
 torchvision==0.16.2
 numpy==1.21.0
