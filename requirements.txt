@@ -5,4 +5,4 @@ Pillow
 st-pages
 torch
 torchvision
-detectron2==0.2.1+cpu
+detectron2==+cpu
