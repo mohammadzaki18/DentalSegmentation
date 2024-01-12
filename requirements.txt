@@ -7,5 +7,5 @@ torch
 torchvision
 numpy
 Pillow
-detectron2
+git+https://github.com/facebookresearch/detectron2.git 
 opencv-python
