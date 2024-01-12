@@ -1,11 +1,10 @@
+torch
+torchvision
 streamlit
 tensorflow
 Pillow
 st-pages
 pyyaml
-torch
-torchvision
 numpy
-Pillow
 git+https://github.com/facebookresearch/detectron2.git 
 opencv-python
