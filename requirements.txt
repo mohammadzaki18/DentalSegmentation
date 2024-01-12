@@ -6,5 +6,5 @@ Pillow
 st-pages
 pyyaml
 numpy
-git+https://github.com/facebookresearch/detectron2.git 
 opencv-python
+git+https://github.com/facebookresearch/detectron2.git 
